@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <title>Apa itu Software Engineering? - Asal Blog</title>
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../js/script.js"></script>
+    </head>
+    <body >
+        <div id="header">
+            <div class="title"><a href="../home.html"><img alt="image not found" src="../img/asal.png" height="50" style="Margin : 5px 0px 0px 0px;"></a>
+                <h4>Welcome to My Site</h4>
+            </div>
+            <div class="navbar">
+                <a href="../home.html" style="background-color : #9c9a9a; color:white"><img alt="image not found" src="../img/home.png" height="10"> Home</a>
+                <a href="../news.html">News</a>
+                <a href="../profile.html">Profile</a>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="about()">Schedule
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="../schedule/smt2.html">Semester 2</a>
+                        <a href="../schedule/smt4.html">Semester 4</a>
+                        <a href="../schedule/smt6.html">Semester 6</a>
+                        <a href="../schedule/smt8.html">Semester 8</a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    
+        <div id="content">
+            <div class="container">
+                <div id="main-content">
+                    <div id="content-title">
+                        <h1>Apa itu Software Engineering?</h1><br>
+                        <div id="identity">
+                            <img alt="image not found" src="../img/assistance.png" height="12"> Asa Romi  <img alt="image not found" src="../img/calendar.png" height="12"> Apr 13, 2019 at 08:00  <img alt="image not found" src="../img/chat.png" height="12"><a id="jumlah-comment"> 1 Comments</a>
+                        </div><br>
+                        <img alt="image not found" src="../img/spoiler-2.png" height="273">
+                    </div>
+                    <h3>Pendahuluan - Pengenalan Software dan Software Engineering</h3>
+                    <p>Di dalam kehidupan era sekarang ini banyak sekali bidang - 
+                        bidang yang menggunakan software. Dimana semua perangkat 
+                        atau peralatan yang digunakan pada berbagai bidang pasti 
+                        memanfaatkan software di dalamnya. Karena pada dasarnya 
+                        semua perangkat keras elektronik tidak akan bisa berfungsi 
+                        tanpa adanya software di dalamnya.</p>
+                    <p>Software adalah program komputer yang isinya prosedur - 
+                        prosedur mengenai bagaimana pengoperasian sistem komputer.</p><br>
+                    <h3>Software Engineering menurut beberapa Ahli</h3>
+                    <ol>
+                        <li>Pressman, 2014 :
+                            <ul>
+                                <li>Intruksi atau program komputer yang jika dijalankan 
+                                atau dieksekusi maka akan menjalankan fungsi yang dimiliki 
+                                sebuah software.</li>
+                                <li>Struktur data yang memungkinkan program untuk memanipulasi 
+                                informasi software itu sendiri secara memadai.</li>
+                                <li>Sebuah informasi deskriptif baik dalam bentuk cetak maupun 
+                                virtual yang menggambarkan operasi dan penggunaan program 
+                                tersebut.</li>
+                            </ul><br>
+                        </li>
+                        
+                        <li>Sommerville, 2015<br>
+                            Berisi sebuah program komputer, dan juga berisi dokumentasi dari program tersebut.
+                        </li>
+                            
+                    </ol><br>
+                    <h3>Jenis - Jenis Software</h3>
+                    <ol>
+                        <li>Software Market<br>
+                            Software jenis ini merupakan Software yang disedialam dari kebutuhan
+                            pasaran atau user. Dibagi juga menjadi : 
+                            <ul>
+                                <li>Software Generik : Perangkat lunak standar yang diproduksi suatu
+                                    perusahaan pengembang dan dibuat secara umum untuk dijual pada
+                                    pasar terbuka dan kepada siapapun yang membelinya.</li>
+                                <li>Software Pesanan : Perangkat Lunak yang dibuat secara khusus dan
+                                    disesuaikan dengan permintaan dan kebutuhan khusus dari pelanggan</li>
+                            </ul>
+                            <i>Contoh dari Software Market : e-SPT, siakad Perguruan Tinggi, dll</i><br><br>
+                        </li>
+                        <li>Software Domain
+                            Ada beberapa jenis Software Domain diantaranya :
+                            <ul>
+                                <li>System Software : Sekumpulan Program yang ditulis untuk melayani
+                                    atau menunjang perogram lainnya. Biasanya di dalam System Software 
+                                    ini masih terdapat Software lagi. <i>Contoh : Compilers, Drivers,
+                                    Sistem Opersai, dll.</i></li>
+                                <li>Application Software : Program mandiri yang mampu menyelesaikan 
+                                    sebuah keperluan tertentu yang dibutuhkan. Perangkat Lunak ini 
+                                    biasanya digunakan untuk mengontrol dan menunjang fungsi kebutuhannya 
+                                    secara real time atau terus menerus.</li>
+                                <li>Engineering/Scientific Software : Software yang dicirikan dengan 
+                                    algoritma numerik dan banyak digunakan dalam bidang engineering dan 
+                                    science. <i>Contohnya Computer Aided Design (CAD) yang digunakan 
+                                    untuk mendesain Mobil, System Stimulation pemasaran, dll.</i></li>
+                                <li>Embedded Software : Suatu Software disimpan dalam memori tetap yang 
+                                    digunakan untuk mengontrol produk dan sistem dari Hardwarenya. Software 
+                                    ini dijalankan dengan berbagai fungsi terbatas untuk berkomunikasi dengan 
+                                    intruksi yang dimiliki oleh software yang ada pada suatu Perangkat Keras. 
+                                    <i>Contohnya Remote Control AC, Elevator, dll.</i></li>
+                                <li>Product Line Software : didesain untuk memberikan kemampuan spesifik 
+                                    untuk setiap pelanggaan yang berbeda. Tergantung dengan kebutuhan 
+                                    penggunanya. <i>Contoh : WS dan WP(<b>Word Processing</b>), Lotus dan 
+                                    Supercalc (<b>Spreadsheet</b>), Printshop dan Print Magic (<b>Computer 
+                                    Graphics</b>) serta lain sebagainya.</i></li>
+                                <li>Web Applications : Merupakan program aplikasi yang berbasis web, biasanya 
+                                    dicirikan dengan ditautkan dengan hypertext files. Software ini berkembang 
+                                    menjadi komputasi yang sangat canggih, yang menyediakan untuk fitur 
+                                    mandiri, dan juga terintegrasi dengan database perusahaan dan aplikasi 
+                                    bisnis. Software jenis ini juga tidak terbatas dengan platform, dengan 
+                                    menggunakan sistem operasi apapun.</li>
+                                <li>Artificial Intelligence Software : AI Software dibuat dengan menggunakan 
+                                    algoritma non numerik untuk menyelesaikan masalah yang rumita atau masalah 
+                                    yang tidak bisa diselesaikan secara langsung. <i>Contohnya : Robotics, 
+                                    Expert System, Game Playing, dll.</i></li>
+                            </ul><br>
+                        </li>
+                        
+                        <li>Software Lisensi
+                            Ada beberapa jenis Software Domain diantaranya :
+                            <ul>
+                                <li>Open Source Software : Ketika membeli aplikasi maka akan disertakan source 
+                                    codenya. Pengguna akan mendapatkan free source code dan software serta 
+                                    juga bisa memodifikasi software atau source code tersebut. Pengguna dapat 
+                                    menginstall software ke dalam banyak komputer. Ketika ada problem, susah 
+                                    untuk ditangani secara cepat. <i>Contoh : Linux, OpenOffice, GIMP, dll.</i></li>
+                                <li>Proprietary Software : Ketika membeli aplikasi hanya disediakan program 
+                                    hasil dari compile source code saja. Pengguna tidak dapat memodifikasi 
+                                    software. Pengguna juga harus memiliki lisensi dari penjual sebelum 
+                                    menginstallnya ke dalam komputer. Ketika terdapat masalah atau trouble akan 
+                                    mendapat full support dari penjual karena Softwarenya berbayar. <i>Contoh : 
+                                    MS. Windows, MS. Office 2013, Adobe Photoshop, dll.</i></li>
+                            </ul><br>
+                        </li>
+                        
+                        <li>Open Source Software (Tambahan)
+                            Source codenya terbuka dan memiliki hak cipta di dalamnya, namun lisensi yang 
+                            gratis atau bebas ini memungkinkan pengguna lain untuk menggunakan dan 
+                            memodifikasi software secara bebas. Berikut ini adalah Jenis Lisensi Software 
+                            Open Source : 
+                            <ul>
+                                <li>GNU General Public License (GPL)</li>
+                                <li>Apache License</li>
+                                <li>BSD License</li>
+                                <li>MIT License</li>
+                                <li>Mozilla Public License</li>
+                            </ul>
+                        </li>
+                    </ol><br>
+                    
+                    <h3>Peranan Software Pada Kehidupan Manusia</h3>
+                    <ol>
+                        <li>Menggantikan Peran Manusia : dengan otomatis melakukan suatu proses atau pekerjaan.</li>
+                        <li>Memperkuat Peran Manusia : dengan membantu manusia untuk menyelesaikan pekerjaannya 
+                            dengan lebih baik dan tertata.</li>
+                        <li>Restukturisasi Peran Manusia : dengan melakukan perubahan - perubahan thd sekumpulan 
+                            Pekerjaan atau proses.</li>
+                        <li>Hiburan dan Permainan : Dengan menyajikan aplikasi interaktif hiburan yang semakin 
+                            dekat dengan kenyataan dan juga tidak membosankan.</li>
+                    </ol>
+                    <h3>Video Pengantar Software Engineering</h3>
+                    <video height="300" controls>
+                        <source src="../video/Intro-Software-Engineering.mp4" type="video/mp4">
+                    </video>
+                    <br>
+                    <br>
+                        <div class="comment-form" style="padding : 20pt;">
+                            <h2>Leave Comments</h2>
+                                <form id="commentform">
+                                <fieldset>
+                                    <div id="placeholder1" style="float : left;">
+                                        <label for="username">Name</label><br>
+                                        <input type="text" id="username" name="username" size="45"><br>
+                                    </div>
+                                    <div id="placeholder2" style="float : right;">
+                                        <label for="email">Email</label><br>
+                                        <input type="email" id="email" name="email" size="45" required><br>
+                                    </div>
+                                    <div id="placeholder3">
+                                        <label for="comment">Comment</label>
+                                        <textarea rows="6" cols="102" id="comment" name="comment" form="commentform" required="">Comments here ...</textarea><br>
+                                    </div>
+                                <input id="button-flat" type="button" onclick="validateForm()" value="Submit">
+                                </fieldset>
+                            </form>
+
+                            <h2 id=komentator>1 Komentar</h2>
+                            
+                            <div class="comment">
+                                <img alt="image not found" src="../img/comentator.png" height="33" style="float:left; margin:1px 10px 1px 0px;">
+                                <h3>Mas Hat</h3>
+                                <p style="font-size: 8pt">Apr 1, 2019 at 04:19</p>
+                                <p>Software Enginereering itu Rekayasa Perangkat Lunak?</p>
+                            </div><br>
+                            
+                            
+                        </div><br>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div id="side-content1">
+                    <h2>Artikel Terbaru</h2>
+                    <div id="side-content-1">
+                        <h3><a href="articles-1.html">Panduan Mudah Cara Belajar dan Memperdalam Linux untuk Pemula</a></h3>
+                    </div>
+                    <div id="side-content-2">
+                        <h3><a href="articles-2.html">Apa itu Software Engineering?</a></h3>
+                    </div>
+                    <div id="side-content-3">
+                        <h3><a href="../news.html">...</a></h3>
+                    </div>
+                </div>
+                <br>
+                <div id="side-content2">
+                    <h2>Contact Me</h2>
+                    <div id="side-content-main">
+                        <a href="https://web.facebook.com/romi.teamjuri"><img alt="image not found" src="../img/facebook.svg" height="20">Asal Romi</a><br>
+                        <a href="https://twitter.com/asaromi001"><img alt="image not found" src="../img/twitter.svg" height="20">Asa Romi</a><br>
+                        <a href="https://instagram.com/asaromi001"><img alt="image not found" src="../img/instagram.svg" height="20">Ahmad Sabilil Maromi</a><br>
+                        <a href="mailto:a.sabililromi@gmail.com?Subject=Hello%20Romi!" target="_top"><img alt="image not found" src="../img/gmail.png" height="20">a.sabililromi@gmail.com</a><br>
+                        <a href="https://www.linkedin.com/in/ahmad-sabilil-maromi-570885176/"><img alt="image not found" src="../img/linkedin.svg" height="20">Ahmad Sabilil Maromi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div id="footer">
+        &copy; 2019 Copyright. Created by <a href="https://instagram.com/asaromi001" style="text-decoration : none; color:black" >Asa Romi</a>
+    </div>
+    </body>
+</html>
