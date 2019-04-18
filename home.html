@@ -1,143 +1,45 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Asal Blog</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-    </head>
-    <body >
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home - Asal Blog</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<body>
     <script src="js/script.js"></script>
-        <div id="header">
-            <div class="title">
-                <a href="home.html"><img src="img/asal.png" height="50px" style="Margin : 5px 0px 0px 0px;"></a><br>
-                <br><h4>Welcome to My Site</h4><br>
-            </div>
-            <div id="nav-head">
-                <a href="home.html">Home</a>
-                <a href="news.html">News</a>
-                <div class="dropdown"></div>
-                    <button onclick="about()" class="dropbtn">About</button>
-                    <div id="myDropDown" class="dropdown-content">
-                        <a href="contact.html">Contact</a>
-                        <a href="profile.html">Profile</a>
-                    </div>
-                </div>
-            </div>
+    <div id="header">
+        <div class="title"><a href="home.html"><img alt="image not found" src="img/asal.png" height="50" style="Margin : 5px 0px 0px 0px;"></a>
+            <h4>Welcome to My Site</h4>
+        </div>
+        <div class="navbar">
+             
+        </div>
+    </div>
+    <div id="content" style="min-height: 360px;">
+        <div id="title">
+            <h1>Selamat Datang di Asal Blog</h1>
+            <h3>Anda ingin diarahkan kemana?</h3>
+        </div>
+        <div class="container" style="width : 96%;">
+            <a href="news.html" style="color: black"><div id="choices1" style="float :left; width: 33%; height: 100%; text-align: center">
+            <img alt="image not found" src="img/newspaper.png" height ="228">
+                <h2>News</h2>
+            </div></a>
+            <a href="schedule/smt2.html" style="color: black"><div id="choices2" style="float :left; width: 33%; height: 100%; text-align: center">
+            <img alt="image not found" src="img/schedule.png" height="228">
+                <h2>Schedule</h2>
+            </div></a>
+            <a href="profile.html" style="color: black"><div id="main-content" style="float :left; width: 33%; height: 100%; text-align: center">
+            <img alt="image not found" src="img/profile.png" height="228">
+                <h2>About</h2>
+            </div></a>
         </div>
         
-        <div id="content">
-            <div id="content-title">
-                <h4>Jadwal Perkuliahan</h4>
-                <h6>Semester 4 2019 B</h6>
-            </div>
-            <br>
-            <div class="container">
-                <main-containt>
-                <table>
-                    <tr>
-                        <th rowspan="2">Jam<br>Kuliah</th>
-                        <th colspan="5">Hari</th>
-                    </tr>
-                    <tr style="font-weight: bold;">
-                        <td>Senin</td>
-                        <td>Selasa</td>
-                        <td>Rabu</td>
-                        <td>Kamis</td>
-                        <td>Jum'at</td>
-                        
-                    </tr>
-                    <tr>
-                        <td><b>07.30</b></td>
-                        <td>Rekayasa<br>Perangkat Lunak</td>
-                        <td></td>
-                        <td></td>
-                        <td>Jaringan<br>Komputer</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td><b>08.25</b></td>
-                        <td>Rekayasa<br>Perangkat Lunak</td>
-                        <td></td>
-                        <td></td>
-                        <td>Jaringan<br>Komputer</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td><b>09.20</b></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>Jaringan<br>Komputer</td>
-                        <td>Metode<br>Numerik</td>
-                    </tr>
-                    <tr>
-                        <td><b>10.15</b></td>
-                        <td>Riset Operasi</td>
-                        <td></td>
-                        <td></td>
-                        <td>Open Source</td>
-                        <td>Metode<br>Numerik</td>
-                    </tr>
-                    <tr>
-                        <td><b>11.10</b></td>
-                        <td>Riset Operasi</td>
-                        <td>Teknik<br>Multimedia</td>
-                        <td>Pemrograman<br>Web</td>
-                        <td>Open Source</td>
-                        <td>Isoma</td>
-                    </tr>
-                    <tr>
-                        <td><b>12.00</b></td>
-                        <td>Isoma</td>
-                        <td>Isoma</td>
-                        <td>Isoma</td>
-                        <td>Isoma</td>
-                        <td>Isoma</td>
-                    </tr>
-                    <tr>
-                        <td><b>13.00</b></td>
-                        <td>Pemrograman<br>Web</td>
-                        <td>Teknik<br>Multimedia</td>
-                        <td>Pemrograman<br>Web</td>
-                        <td>Jaringan<br>Komputer</td>
-                        <td>Rekayasa<br>Perangkat Lunak</td>
-                    </tr>
-                    <tr>
-                        <td><b>13.55</b></td>
-                        <td>Pemrograman<br>Web</td>
-                        <td>Metode<br>Numerik</td>
-                        <td>Teknik<br>Multimedia</td>
-                        <td>Jaringan<br>Komputer</td>
-                        <td>Rekayasa<br>Perangkat Lunak</td>
-                    </tr>
-                    <tr>
-                        <td><b>14.50</b></td>
-                        <td></td>
-                        <td>Metode<br>Numerik</td>
-                        <td>Teknik<br>Multimedia</td>
-                        <td></td>
-                        <td>Rekayasa<br>Perangkat Lunak</td>
-                    </tr>
-                    <tr>
-                        <td><b>15.45</b></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
-            </main-containt>
-            </div>
-            <div class="sidebar">
-                <h2>Artikel Terbaru</h2><br>
-                <div id="side-content"><a href="articles-1.html">
-                    <h3>Panduan Mudah Cara Belajar dan Memperdalam Linux untuk Pemula</h3>
-                </div>
-            </div>
-        </div>
-        <div id="footer">
-            
-        </div>
-    
-    </body>
+    </div>
+    <div id="footer">
+            &copy; 2019 Copyright. Created by <a href="https://instagram.com/asaromi001" style="text-decoration : none; color:black" >Asa Romi</a>
+    </div>
+</body>
 </html>

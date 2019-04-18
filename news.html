@@ -1,38 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
     <head>
-        <title>Asal Blog</title>
+        <meta charset="utf-8">
+        <title>News - Asal Blog</title>
         <link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body >
-    <script src="js/script.js"></script>
-    <div id="wrap">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+        <script src="js/script.js"></script>
         <div id="header">
-            <div class="title">
-                <a href="home.html"><img src="img/asal.png" height="50px" style="Margin : 5px 0px 0px 0px;"></a><br>
-                <br><h4>Welcome to My Site</h4><br>
+            <div class="title"><a href="home.html"><img alt="image not found" src="img/asal.png" height="50" style="Margin : 5px 0px 0px 0px;"></a>
+                <h4>Welcome to My Site</h4>
             </div>
-            <div id="nav-head">
-                <a href="home.html">Home</a>
+            <div class="navbar">
+                <a href="home.html" style="background-color : #9c9a9a; color:white"><img alt="image not found" src="img/home.png" height="10"> Home</a>
                 <a href="news.html">News</a>
-                <div class="dropdown"></div>
-                    <button onclick="about()" class="dropbtn">About</button>
-                    <div id="myDropDown" class="dropdown-content">
-                        <a href="contact.html">Contact</a>
-                        <a href="profile.html">Profile</a>
+                <a href="profile.html">Profile</a>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="about()">Schedule
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="schedule/smt2.html">Semester 2</a>
+                        <a href="schedule/smt4.html">Semester 4</a>
+                        <a href="schedule/smt6.html">Semester 6</a>
+                        <a href="schedule/smt8.html">Semester 8</a>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
         
         <div id="content">
-            <div id="content-title">
-                <h4>News</h4>
-            </div>
-            <br>
+                <div id="title">
+                    <h1>News</h1>
+                </div>
             <div class="container">
-                <div id="main-content"><a href="articles-1.html">
-                    <h3>Panduan Mudah Cara Belajar dan Memperdalam Linux untuk Pemula</h3>
+                <div id="main-content1"><a href="articels/articles-1.html">
+                    <img alt="image not found" src="img/spoiler.jpg" height="125" style="float:left; margin:1px 10px 1px 0px;">
+                    <p style="font-size : 14pt;"><b>Panduan Mudah Cara Belajar dan Memperdalam Linux untuk Pemula</b></p>
+
                     <p>Mempelajari Linux bukan hanya untuk sekedar mengetik 
                         dokumen ataupun membuat desain grafis. Untuk itu, agar 
                         proses belajar lebih mudah, ada sejumlah skill dasar 
@@ -40,25 +45,54 @@
                         Windows, seperti mengetahui ...</p>
                     <p style="color : darkgray">read more >></p>
                 </a>
-                </div>
-                <div id="main-content"><a href="articles-1.html"></a>
-                    
-                </div>
-                <div id="main-content"><a href="articles-1.html"></a>
-                    
+                </div><br>
+                <div id="main-content2"><a href="articels/articles-2.html">
+                    <img alt="image not found" src="img/spoiler-2.png" height="125" style="float:left; margin:1px 10px 1px 0px;">
+                    <p style="font-size : 14pt;"><b>Apa itu Software Engineering?</b></p>
+                    <p>Pendahuluan - Pengenalan Software dan Software Engineering. 
+                        Di dalam kehidupan era sekarang ini banyak sekali bidang - 
+                        bidang yang menggunakan software. Dimana semua perangkat 
+                        atau peralatan yang digunakan pada berbagai bidang pasti
+                        memanfaatkan software di dalamnya ...</p>
+                    <p style="color : darkgray">read more >></p>
+                </a>
+                </div><br>
+                <div id="main-content3"><a href="#">
+                    <img alt="image not found" src="img/spoiler-3.png" height="125" style="float:left; margin:1px 10px 1px 0px;">
+                    <p style="font-size : 14pt;"><b>GNU Octave, Alternatif MATLAB Terbaik Kini Capai Versi 4.0</b></p>
+                    <p>GNU Octave adalah aplikasi free and open source yang ditujukan untuk komputasi numerik linear maupun non linear. Octave sangat populer sebagai aplikasi alternatif dari MATLAB. Octave memiliki pustaka untuk melakukan manipulasi dan visualisasi data yang cukup lengkap ...</p>
+                    <p style="color : darkgray">read more >></p>
+                </a>
                 </div>
             </div>
             <div class="sidebar">
-                <h2>Artikel Terbaru</h2><br>
-                <div id="side-content"><a href="articles-1.html">
-                    <h3>Panduan Mudah Cara Belajar dan Memperdalam Linux untuk Pemula</h3>
+                <div id="side-content1">
+                    <h2>Artikel Terbaru</h2>
+                    <div id="side-content-1">
+                        <h3><a href="articels/articles-1.html">Panduan Mudah Cara Belajar dan Memperdalam Linux untuk Pemula</a></h3>
+                    </div>
+                    <div id="side-content-2">
+                        <h3><a href="articels/articles-2.html">Apa itu Software Engineering?</a></h3>
+                    </div>
+                    <div id="side-content-3">
+                        <h3><a href="#">...</a></h3>
+                    </div>
+                </div>
+                <br>
+                <div id="side-content2">
+                    <h2>Contact Me</h2>
+                    <div id="side-content-main">
+                        <a href="https://web.facebook.com/romi.teamjuri"><img alt="image not found" src="img/facebook.svg" height="20">Asal Romi</a><br>
+                        <a href="https://twitter.com/asaromi001"><img alt="image not found" src="img/twitter.svg" height="20">Asa Romi</a><br>
+                        <a href="https://instagram.com/asaromi001"><img alt="image not found" src="img/instagram.svg" height="20">Ahmad Sabilil Maromi</a><br>
+                        <a href="mailto:a.sabililromi@gmail.com?Subject=Hello%20Romi!" target="_top"><img alt="image not found" src="img/gmail.png" height="20">a.sabililromi@gmail.com</a><br>
+                        <a href="https://www.linkedin.com/in/ahmad-sabilil-maromi-570885176/"><img alt="image not found" src="img/linkedin.svg" height="20">Ahmad Sabilil Maromi</a>
+                    </div>
                 </div>
             </div>
-            
         </div>
         <div id="footer">
-            
+            &copy; 2019 Copyright. Created by <a href="https://instagram.com/asaromi001" style="text-decoration : none; color:black" >Asa Romi</a>
         </div>
-    </div>
     </body>
 </html>
